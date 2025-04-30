@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Section3 = () => {
+const BrowserByCategory = () => {
   return (
     <div id='center' className='vertical section'> 
     <div className='first'>
@@ -113,4 +113,4 @@ const Section3 = () => {
   )
 }
 
-export default Section3
+export default BrowserByCategory

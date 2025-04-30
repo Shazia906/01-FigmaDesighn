@@ -1,11 +1,11 @@
-import Reapagepart3ct from 'react'
+import React from 'react'
 import page1 from "./../../../images/page1.png";
 import page2 from "./../../../images/page2.png";
 import page3 from "./../../../images/page3.png";
 import page4 from"./../../../images/page4.png";
 
 
-const Section7 = () => {
+const Newarival = () => {
   return (
     <div id='center' className='vertical section'> 
     <div className='first'>
@@ -13,7 +13,7 @@ const Section7 = () => {
       <p className='reded'>Today's</p>
     </div>
     <div className='salesSection'>
-        <div><h2>New Arival</h2></div>
+        <div><h1>New Arival</h1></div>
     </div>
   <div className='pages'>
     <div className='pagepart'>
@@ -37,7 +37,7 @@ const Section7 = () => {
                 <div className='text2' >
                 <h4>Speakers</h4>
                 <p>Buy our products with good quility</p>
-                <p>$5000</p>
+                <span>$5000</span>
           </div>
             </div>
             <div className='perfuims'>
@@ -45,7 +45,7 @@ const Section7 = () => {
                 <div className='text3'>
           <h4>Perfuims</h4>
            <p>Buy our products with good quility</p>
-           <p>$30000</p>
+           <span>$30000</span>
           </div>
             </div>
 
@@ -56,4 +56,4 @@ const Section7 = () => {
   )
 }
 
-export default Section7
+export default Newarival

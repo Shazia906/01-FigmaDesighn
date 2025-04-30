@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Section8 = () => {
+const CustomerServices = () => {
   return (
     <div className='vertical iconsdiv' id='center'>
           <div>
@@ -76,4 +76,4 @@ const Section8 = () => {
   )
 }
 
-export default Section8
+export default CustomerServices
